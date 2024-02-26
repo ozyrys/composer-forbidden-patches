@@ -1,5 +1,5 @@
 {
-  "name": "ozyrys/forbidden-patches",
+  "name": "ozyrys/composer-forbidden-patches",
   "type": "composer-plugin",
   "require": {
     "composer-plugin-api": "^2.0"
