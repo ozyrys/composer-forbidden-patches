@@ -22,7 +22,7 @@ class PatchEventSubscriber implements PluginInterface, EventSubscriberInterface 
   protected $io;
 
   protected const FORBIDDEN_PATCHES = [
-    '39d4741d584818e20a9defb10a4b8e43bc6cce14090e1171a11fcdb6450d9b36',
+    'a60490d6f2bc54d0355bc96236b74c25828d596285c4c373ba72a2e1260ad18a',
   ];
 
   /**
