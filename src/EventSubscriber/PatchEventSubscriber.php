@@ -63,7 +63,7 @@ class PatchEventSubscriber implements PluginInterface, EventSubscriberInterface 
         'default' => false,
       ],
     ];
-    $this->configure($composer->getPackage()->getExtra(), 'digit-patch-event-subscriber');
+    $this->configure($composer->getPackage()->getExtra(), 'ozyrys-patch-event-subscriber');
   }
 
   public function deactivate(Composer $composer, IOInterface $io)
