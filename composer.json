@@ -1,0 +1,13 @@
+{
+  "name": "ozyrys/forbidden-patches",
+  "type": "composer-plugin",
+  "require": {
+    "composer-plugin-api": "^2.0"
+  },
+  "require-dev": {
+    "../../../vendor/composer/composer": "^2.0"
+  },
+  "extra": {
+    "class": "Ozyrys\\ForbiddenPatches\\Composer\\EventSubscriber\\PatchEventSubscriber"
+  }
+}
